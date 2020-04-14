@@ -60,7 +60,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="Rotation" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerReleased" />
@@ -102,7 +101,6 @@
       <RootProperty Name="XYFocusUpNavigationStrategy" />
       <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="AllowFocusOnInteraction" />
-      <RootProperty Name="Children" />
       <RootEvent Name="PointerPressed" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerReleased" />

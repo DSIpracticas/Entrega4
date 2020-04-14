@@ -98,12 +98,12 @@
                     TabFocusNavigation="Once"
                     AllowFocusOnInteraction="True"
                     KeyDown="MiCanvas_KeyDown">
-                    <Image x:Name="ImagenC" Width="{Binding Value, ElementName=ImageSlider}" Grid.Row="2" Grid.Column="1"/>
                 </Canvas>
             </Grid>
         </ScrollViewer>
+
         
-        <Image x:Name="ImagenSel" Source="Assets/Samples/1.jpg" Stretch="Fill" Grid.Row="2"    Grid.Column="1"/>
+        <Image x:Name="ImagenSel" Source="Assets/Samples/1.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="1"/>
         
         <StackPanel Grid.Column="0" Grid.Row="2" Background="LightGray">
             <TextBlock x:Name="SelDatos" Text="Ninguna Selección"/>

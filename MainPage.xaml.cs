@@ -80,6 +80,7 @@ namespace P3EstebanSanRoman
             //MiCanvas.PointerReleased += new PointerEventHandler(MiCanvas_PointerReleased);
             //MiCanvas.PointerPressed += new PointerEventHandler(MiCanvas_PointerPressed);
         }
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             // Cosntruye las listas de ModelView a partir de la lista Modelo 
@@ -118,6 +119,21 @@ namespace P3EstebanSanRoman
             MuestraInfo();
         }
 
+
+        private void LeeMando()
+        {
+            if (myGamepads.Count != 0)
+            {
+                mainGamepad = myGamepads[0];
+                prereading = reading;
+                reading = mainGamepad.GetCurrentReading();
+                //Muestra en IU
+                GamePadLog.Text = "Botones: " + reading.Buttons.ToString() + "\n"
+                    + " @@@ " + reading.RightThumbstickX.ToString()
+                    + " , " + reading.LeftThumbstickX.ToString();
+            }
+        }
+
         private void MiCanvas_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
 
@@ -145,12 +161,14 @@ namespace P3EstebanSanRoman
 
         private void MiCanvas_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
-            PointerPoint ptrPt = e.GetCurrentPoint(ImagenC);
+            PointerPoint ptrPt = e.GetCurrentPoint(MiCanvas);
             if (SelInd >= 0)
             {
                 if (RotbotDer)
                 {
                     ListaDrones[SelInd].Angulo += (int)ptrPt.Position.X - (int)ptrPtAnt.Position.X;
+                    if (ListaDrones[SelInd].Angulo >= 360) ListaDrones[SelInd].Angulo -= 360;
+                    else if (ListaDrones[SelInd].Angulo < 0) ListaDrones[SelInd].Angulo += 360;
                     ListaDrones[SelInd].Rotation.Angle = ListaDrones[SelInd].Angulo;
                     ptrPtAnt = ptrPt;
                 }
@@ -160,8 +178,8 @@ namespace P3EstebanSanRoman
                     ListaDrones[SelInd].Y = (int)ptrPt.Position.Y;
                     MiCanvas.Children[SelInd].SetValue(Canvas.LeftProperty, ListaDrones[SelInd].X - 25);
                     MiCanvas.Children[SelInd].SetValue(Canvas.TopProperty, ListaDrones[SelInd].Y - 25);
-                    MuestraInfo();
                 }
+                MuestraInfo();
             }
         }
 
@@ -196,7 +214,7 @@ namespace P3EstebanSanRoman
                         break;
                     case VirtualKey.W:
                     case VirtualKey.GamepadRightThumbstickUp:
-                        Y += 10;
+                        Y -= 10;
                         break;
                     case VirtualKey.S:
                     case VirtualKey.GamepadRightThumbstickDown:
@@ -204,21 +222,25 @@ namespace P3EstebanSanRoman
                         break;
                     case VirtualKey.Q:
                     case VirtualKey.GamepadX:
-                        Angulo += 1;
+                        Angulo += 10;
                         break;
                     case VirtualKey.E:
                     case VirtualKey.GamepadY:
-                        Angulo -= 1;
+                        Angulo -= 15;
                         break;
                 }
 
                 ListaDrones[FocInd].X = X;
                 ListaDrones[FocInd].Y = Y;
+                if (Angulo >= 360) Angulo -= 360;
+                else if (Angulo < 0) Angulo += 360;
                 ListaDrones[FocInd].Angulo = Angulo;
 
                 MiCanvas.Children[FocInd].SetValue(Canvas.LeftProperty, X - 25);
                 MiCanvas.Children[FocInd].SetValue(Canvas.TopProperty, Y - 25);
                 ListaDrones[FocInd].Rotation.Angle = Angulo;
+                SelMos = FocInd;
+                MuestraInfo();
             }
         }
 
@@ -258,11 +280,11 @@ namespace P3EstebanSanRoman
             if (SelMos >= 0)
             {
                 VMDron Sel = ListaDrones[SelMos];
-                SelDatos.Text = "Id: " + Sel.Id + ", Nombre: " 
-                    + Sel.Nombre + ", Estado: " + Sel.Estado + " /n, REF: " 
-                    + Sel.RX.ToString() + "," + Sel.RY.ToString() + ", POS: " 
-                    + Sel.X.ToString() + "," + Sel.Y.ToString() + ", ANGLE: " 
-                    + Sel.Angulo + ", ROT: " + Sel.Rotation;
+                SelDatos.Text = "Id: " + Sel.Id + ", Nombre: "
+                    + Sel.Nombre + ", Estado: " + Sel.Estado + " /n, REF: "
+                    + Sel.RX.ToString() + "," + Sel.RY.ToString() + ", POS: "
+                    + Sel.X.ToString() + "," + Sel.Y.ToString() + ", ANGLE: "
+                    + Sel.Angulo;
                 //SelExp.Source = Sel.Imagen.Source;
             }
         }

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-3H3CEJL</Machine>
-    <WindowsUser>Oskar</WindowsUser>
+    <Machine>DESKTOP-MAV0V0L</Machine>
+    <WindowsUser>demon</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e9285022-f076-426b-88d9-712c2be773ea</PackageIdentityName>
     <PackageIdentityPublisher>CN=segu222</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>E0E09688C44B93A9D17E7D257DB3B4CD1F5094BCD52816B6D6E9F5F9EE9CB1E5</RegisteredManifestChecksum>
+    <LayoutDir>G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>AF668B32C3A4CDFA270AF64B638E214F9B2CDB0CEAE37F6C2B63BA1310CF8D69</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e9285022-f076-426b-88d9-712c2be773ea_1.0.0.0_x64__f86y4dzhkna0m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e9285022-f076-426b-88d9-712c2be773ea_f86y4dzhkna0m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e9285022-f076-426b-88d9-712c2be773ea</RegisteredPackageID>
@@ -27,224 +27,224 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-13T01:00:14.943</Modified>
+      <Modified>2020-04-14T17:18:46.013</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\P3FernandezOscar.exe">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\P3FernandezOscar.exe">
       <PackagePath>entrypoint\P3FernandezOscar.exe</PackagePath>
-      <Modified>2020-04-13T01:00:14.669</Modified>
+      <Modified>2020-04-14T17:18:45.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\demon\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2019-03-12T20:23:24.000</Modified>
+      <Modified>2019-03-12T21:23:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Madrid.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
-      <Modified>2019-03-20T11:18:41.569</Modified>
+      <Modified>2019-03-20T12:18:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2018-10-29T10:56:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\1.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\1.jpg">
       <PackagePath>Assets\Samples\1.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\10.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\10.jpg">
       <PackagePath>Assets\Samples\10.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\11.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\11.jpg">
       <PackagePath>Assets\Samples\11.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\12.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\12.jpg">
       <PackagePath>Assets\Samples\12.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\13.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\13.jpg">
       <PackagePath>Assets\Samples\13.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\14.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\14.jpg">
       <PackagePath>Assets\Samples\14.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\15.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\15.jpg">
       <PackagePath>Assets\Samples\15.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\16.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\16.jpg">
       <PackagePath>Assets\Samples\16.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\17.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\17.jpg">
       <PackagePath>Assets\Samples\17.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\18.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\18.jpg">
       <PackagePath>Assets\Samples\18.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\19.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\19.jpg">
       <PackagePath>Assets\Samples\19.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\2.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\2.jpg">
       <PackagePath>Assets\Samples\2.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\20.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\20.jpg">
       <PackagePath>Assets\Samples\20.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\3.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\3.jpg">
       <PackagePath>Assets\Samples\3.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\4.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\4.jpg">
       <PackagePath>Assets\Samples\4.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\5.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\5.jpg">
       <PackagePath>Assets\Samples\5.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\6.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\6.jpg">
       <PackagePath>Assets\Samples\6.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\7.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\7.jpg">
       <PackagePath>Assets\Samples\7.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\8.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\8.jpg">
       <PackagePath>Assets\Samples\8.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Assets\Samples\9.jpg">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Assets\Samples\9.jpg">
       <PackagePath>Assets\Samples\9.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2018-12-10T22:11:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-02-19T15:01:12.561</Modified>
+      <Modified>2020-02-19T16:01:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\P3FernandezOscar.xr.xml">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\P3FernandezOscar.xr.xml">
       <PackagePath>P3FernandezOscar.xr.xml</PackagePath>
-      <Modified>2020-04-13T01:00:14.558</Modified>
+      <Modified>2020-04-14T16:38:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-13T01:00:14.562</Modified>
+      <Modified>2020-04-14T17:18:45.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-13T01:00:14.563</Modified>
+      <Modified>2020-04-14T17:18:45.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-12T22:32:36.243</Modified>
+      <Modified>2020-04-14T17:18:45.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Oskar\Desktop\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\Core\P3FernandezOscar.exe">
+    <AppxPackagedFile Include="G:\2do\2doCuatrimestre\DSI\entregas\Entrega4\P4OscarFernandez\P3FernandezOscar\bin\x64\Debug\Core\P3FernandezOscar.exe">
       <PackagePath>P3FernandezOscar.exe</PackagePath>
-      <Modified>2020-04-13T01:00:14.940</Modified>
+      <Modified>2020-04-14T17:18:46.010</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27404.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demon\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27505.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demon\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

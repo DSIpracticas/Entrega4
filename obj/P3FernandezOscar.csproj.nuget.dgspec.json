@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oskar\\Desktop\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj": {}
+    "G:\\2do\\2doCuatrimestre\\DSI\\entregas\\Entrega4\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oskar\\Desktop\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj": {
+    "G:\\2do\\2doCuatrimestre\\DSI\\entregas\\Entrega4\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oskar\\Desktop\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj",
+        "projectUniqueName": "G:\\2do\\2doCuatrimestre\\DSI\\entregas\\Entrega4\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj",
         "projectName": "P3FernandezOscar",
-        "projectPath": "C:\\Users\\Oskar\\Desktop\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj",
-        "packagesPath": "C:\\Users\\Oskar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oskar\\Desktop\\P4OscarFernandez\\P3FernandezOscar\\obj\\",
+        "projectPath": "G:\\2do\\2doCuatrimestre\\DSI\\entregas\\Entrega4\\P4OscarFernandez\\P3FernandezOscar\\P3FernandezOscar.csproj",
+        "packagesPath": "C:\\Users\\demon\\.nuget\\packages\\",
+        "outputPath": "G:\\2do\\2doCuatrimestre\\DSI\\entregas\\Entrega4\\P4OscarFernandez\\P3FernandezOscar\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Oskar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\demon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

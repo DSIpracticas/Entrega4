@@ -49,7 +49,4 @@ namespace P3EstebanSanRoman
             //Mapa.Children.Last().SetValue(Canvas.TopProperty, Y - 25);
         }
     }
-
-
-   
 }
